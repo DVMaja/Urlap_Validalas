@@ -12,15 +12,15 @@
         <header></header>
         <nav></nav>
         <article>
-            <form action="action.php" onsubmit="validateForm()" name="validTeszt" method="get">
+            <form action="action.php"  method="get" onsubmit="validateForm()" name="validTeszt">
                 <div class="sor">
                     <label for="kNev">Keresztnév: </label><br>
-                    <input type="text" id="kNev" name="kNev">
+                    <input type="text" id="kNev" name="kNev" pattern="^[A-Za-z\s]{4,}$">
                 </div>
 
                 <div class="sor">
                     <label for="vNev">Vezetéknév: </label><br>
-                    <input type="text" id="vNev" name="vNev" >
+                    <input type="text" id="vNev" name="vNev" pattern="^[A-Za-z\s]{4,}$">
                 </div>
 
                 <div class="sor">
