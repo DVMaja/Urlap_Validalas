@@ -10,4 +10,11 @@ function validateForm() {
         alert("A mező kitöltése kötelező!");
         return false;
     }
+
+    let y = document.validTeszt.jelszo1.value;
+    let z = document.validTeszt.jelszo2.value;
+    if (y != z) {
+        alert("Nem egyforma a két jelszó!");
+        return false;
+    }
 }
