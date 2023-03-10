@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="valid.js"></script>
+    <title>Űrlap validálás</title>
+</head>
+<body>
+    <main>
+        <header></header>
+        <nav></nav>
+        <article>
+            <form action="action.php" onsubmit="validateForm()" name="validTeszt" method="get">
+                <div class="sor">
+                    <label for="kNev">Keresztnév: </label><br>
+                    <input type="text" id="kNev" name="kNev">
+                </div>
+
+                <div class="sor">
+                    <label for="vNev">Vezetéknév: </label><br>
+                    <input type="text" id="vNev" name="vNev" >
+                </div>
+
+                <div class="sor">
+                    <label for="jelszo1">Jelszó: </label><br>
+                    <input type="password" id="jelszo1" name="jelszo1">
+                </div>
+
+                <div class="sor">
+                    <label for="jelszo2">Jelszó újra: </label><br>
+                    <input type="password" id="jelszo2" name="jelszo2">
+                </div>
+                <div class="sor">
+                    <input type="submit" value="Beküld">
+                </div>
+    
+            </form>
+        </article>
+        <footer></footer>
+    </main>
+
+</body>
+</html>
