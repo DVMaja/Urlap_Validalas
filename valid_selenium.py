@@ -22,10 +22,11 @@ def validalas():
     # Add meg a működő - majd később a nem működő - teszt adatokat!
     k_nev.send_keys("John")
     v_nev.send_keys("Smith")
-    jelszo1.send_keys("12345")
-    jelszo2.send_keys("12345")
+    jelszo1.send_keys("12345asd")
+    jelszo2.send_keys("12345asd")
     #k_nev.send_keys("valami")
     #v_nev.send_keys("23Béla")
+    #asd = open("valami.txt", "a", encoding="utf-8")
 
     # ...
 

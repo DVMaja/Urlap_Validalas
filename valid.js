@@ -1,7 +1,7 @@
 window.addEventListener("load", init);
 
 function init() {
-    //validateForm();
+    //validateForm();   
 }
 
 function validateForm() {
@@ -16,7 +16,11 @@ function validateForm() {
     if (y != z) {
         //document.validTeszt.jelszo2.focus();
         alert("Nem egyforma a két jelszó!");       
-        return false;
-       
+        return false;       
     }
+    if (true) {
+        
+    }
+
 }
+
