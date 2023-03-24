@@ -14,7 +14,9 @@ function validateForm() {
     let y = document.validTeszt.jelszo1.value;
     let z = document.validTeszt.jelszo2.value;
     if (y != z) {
-        alert("Nem egyforma a két jelszó!");
+        //document.validTeszt.jelszo2.focus();
+        alert("Nem egyforma a két jelszó!");       
         return false;
+       
     }
 }
